@@ -44,7 +44,7 @@
 		{{- end }}
 	{{- end }}
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7664216486755529"
-	crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>
 </head>
 <body class="body kind-{{ .Kind }}">
 	{{ partial "header" . }}
@@ -66,20 +66,6 @@
 {{- range .Site.Params.customJS }}
 <script src="{{ . | relURL }}"></script>
 {{- end }}
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7664216486755529"
-     crossorigin="anonymous"></script>
-<!-- coderef1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7664216486755529"
-     data-ad-slot="8773131726"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 
 </body>
 </html>
